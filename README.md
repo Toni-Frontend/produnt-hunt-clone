@@ -1,8 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Product Hunt is an American website for sharing and discovering new products. Users submit products, which are listed in a linear format per day. The site includes a comment system and voting system similar to Hacker News or Reddit. This project is based on the real project, it is a clone, the products found in the application are not real, they are only test products, all the information on the site.
 
 ## Project Preview
   ![imagen](https://github.com/TonyBravo-FrontDev/produnt-hunt-clone/blob/main/public/static/img/produnt-hunt.png)
   ![imagen](https://github.com/TonyBravo-FrontDev/produnt-hunt-clone/blob/main/public/static/img/produnt-post.png)
+  
+## Technologies
+  <ul>
+  <li>Next.js</li>
+   <li>SASS</li>
+   <li>Firebase</li>
+   <li>Styled Components</li>
+  </ul>
 
 ## Getting Started
 
