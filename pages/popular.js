@@ -8,8 +8,8 @@ import Today from "../components/Products/Today";
 import LatestStory from "../components/Stories/LatestStory";
 import useProduct from "../hooks/useProducts";
 
-const Home = () => {
-  const { products } = useProduct("create");
+const Popular = () => {
+  const { products } = useProduct("votes");
 
   return (
     <Layout>
@@ -52,4 +52,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Popular;

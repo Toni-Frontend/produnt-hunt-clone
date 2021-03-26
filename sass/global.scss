@@ -1,0 +1,59 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #f3f3f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:focus,
+video:focus,
+button:focus,
+div:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.title-component-h {
+  color: #242424;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+
+  @media(min-width: 1200px) {
+    font-size: 1.6rem;
+  }
+}
+
+@import "./Navegation.scss";
+@import "./Container.scss";
+@import './Modal.scss';

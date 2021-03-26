@@ -8,7 +8,7 @@ import Today from "../components/Products/Today";
 import LatestStory from "../components/Stories/LatestStory";
 import useProduct from "../hooks/useProducts";
 
-const Home = () => {
+const Newest = () => {
   const { products } = useProduct("create");
 
   return (
@@ -52,4 +52,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Newest;
